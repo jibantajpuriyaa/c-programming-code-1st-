@@ -1,0 +1,16 @@
+# Ignore the compiled executable files
+*.exe
+*.out
+a.out
+
+# Ignore specific folders
+node_modules/
+build/
+temp/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables (SENSITIVE!)
+.env
